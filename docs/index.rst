@@ -29,7 +29,7 @@ Here are some journals that we often find papers interesting to many of us:
 * Nature methods: https://www.nature.com/nmeth/
 * Nature genetics: https://www.nature.com/ng/
 * Nature communications: https://www.nature.com/ncomms/
-* and more ...
+* and more, inclusing conference in ML ...
 
 
 .. toctree::
