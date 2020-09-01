@@ -1,0 +1,14 @@
+sphinx:
+  configuration: docs/conf.py
+build:
+  image: latest
+python:
+  install:
+    - requirements: doc/requirements.txt
+    - method: pip
+      path: .
+      extra_requirements:
+          - docs
+    - method: setuptools
+      path: package
+  system_packages: true

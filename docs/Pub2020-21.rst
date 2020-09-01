@@ -1,0 +1,11 @@
+=============
+Pub 2020-2021
+=============
+
+2020-09-07
+==========
+
+ .. bibliography:: ../bibs/m2020-09-07.bib
+    :list: enumerated
+    :style: unsrtalpha
+    :all:
