@@ -29,7 +29,9 @@ Here are some journals that we often find papers interesting to many of us:
 * Nature methods: https://www.nature.com/nmeth/
 * Nature genetics: https://www.nature.com/ng/
 * Nature communications: https://www.nature.com/ncomms/
-* and more, inclusing conference in ML ...
+* Conferences in ML, e.g., `UAI <http://auai.org/uai2020/>`_,  
+  `NeurIPS <https://nips.cc>`_ ...
+* and more ...
 
 
 .. toctree::
