@@ -9,3 +9,36 @@ Pub 2020-2021
     :list: enumerated
     :style: unsrtalpha
     :all:
+    
+    @article{10.1093/bioinformatics/btaa737,
+    author = {Luo, Xizhi and Qin, Fei and Cai, Guoshuai and Xiao, Feifei},
+    title = "{Integrating Genomic Correlation Structure Improves Copy Number Variations Detection}",
+    journal = {Bioinformatics},
+    year = {2020},
+    month = {08},
+    abstract = "{Copy number variation plays important roles in human complex diseases. The detection of copy number variants (CNVs) is identifying mean shift in genetic intensities to locate chromosomal breakpoints, the step of which is referred to as chromosomal segmentation. Many segmentation algorithms have been developed with a strong assumption of independent observations in the genetic loci, and they assume each locus has an equal chance to be a breakpoint (i.e., boundary of CNVs). However, this assumption is violated in the genetics perspective due to the existence of correlation among genomic positions such as linkage disequilibrium (LD). Our study showed that the LD structure is related to the location distribution of CNVs which indeed presents a non-random pattern on the genome. To generate more accurate CNVs, we proposed a novel algorithm, LDcnv, that models the CNV data with its biological characteristics relating to genetic dependence structure (i.e., LD).We theoretically demonstrated the correlation structure of CNV data in SNP array, which further supports the necessity of integrating biological structure in statistical methods for CNV detection. Therefore, we developed the LDcnv that integrated the genomic correlation structure with a local search strategy into statistical modelling of the CNV intensities. To evaluate the performance of LDcnv, we conducted extensive simulations and analyzed large-scale HapMap datasets. We showed that LDcnv presented high accuracy, stability and robustness in CNV detection and higher precision in detecting short CNVs compared to existing methods. This new segmentation algorithm has a wide scope of potential application with data from various high-throughput technology platforms.https://github.com/FeifeiXiaoUSC/LDcnv.Supplementary data are available at Bioinformatics online.}",
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/btaa737},
+    url = {https://doi.org/10.1093/bioinformatics/btaa737},
+    note = {btaa737},
+    eprint = {https://academic.oup.com/bioinformatics/advance-article-pdf/doi/10.1093/bioinformatics/btaa737/33658621/btaa737.pdf},
+}
+
+@article{10.1093/bioinformatics/btaa470,
+    author = {Zeira, Ron and Raphael, Benjamin J},
+    title = "{Copy number evolution with weighted aberrations in cancer}",
+    journal = {Bioinformatics},
+    volume = {36},
+    number = {Supplement_1},
+    pages = {i344-i352},
+    year = {2020},
+    month = {07},
+    abstract = "{Copy number aberrations (CNAs), which delete or amplify large contiguous segments of the genome, are a common type of somatic mutation in cancer. Copy number profiles, representing the number of copies of each region of a genome, are readily obtained from whole-genome sequencing or microarrays. However, modeling copy number evolution is a substantial challenge, because different CNAs may overlap with one another on the genome. A recent popular model for copy number evolution is the copy number distance (CND), defined as the length of a shortest sequence of deletions and amplifications of contiguous segments that transforms one profile into the other. In the CND, all events contribute equally; however, it is well known that rates of CNAs vary by length, genomic position and type (amplification versus deletion).We introduce a weighted CND that allows events to have varying weights, or probabilities, based on their length, position and type. We derive an efficient algorithm to compute the weighted CND as well as the associated transformation. This algorithm is based on the observation that the constraint matrix of the underlying optimization problem is totally unimodular. We show that the weighted CND improves phylogenetic reconstruction on simulated data where CNAs occur with varying probabilities, aids in the derivation of phylogenies from ultra-low-coverage single-cell DNA sequencing data and helps estimate CNA rates in a large pan-cancer dataset.Code is available at https://github.com/raphael-group/WCND.Supplementary data are available at Bioinformatics online.}",
+    issn = {1367-4803},
+    doi = {10.1093/bioinformatics/btaa470},
+    url = {https://doi.org/10.1093/bioinformatics/btaa470},
+    eprint = {https://academic.oup.com/bioinformatics/article-pdf/36/Supplement\_1/i344/33488724/btaa470.pdf},
+}
+
+
+
