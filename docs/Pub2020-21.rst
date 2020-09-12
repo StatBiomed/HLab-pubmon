@@ -11,8 +11,9 @@ Pub 2020-2021
     :all:
     
 2020-09-21
-==========    
-.. bibliography:: ../bibs/m2020-09-21.bib
+==========
+
+ .. bibliography:: ../bibs/m2020-09-21.bib
    :list: enumerated
    :style: unsrtalpha
    :all:
