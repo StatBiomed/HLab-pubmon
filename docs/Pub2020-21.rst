@@ -17,3 +17,12 @@ Pub 2020-2021
    :list: enumerated
    :style: unsrtalpha
    :all:
+
+
+2020-10-05
+==========
+
+ .. bibliography:: ../bibs/m2020-10-05.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
