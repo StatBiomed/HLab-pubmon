@@ -11,7 +11,7 @@ Publication monitoring at Huang Lab
 3. Modify the .bib file for our meeting, e.g., [bibs/m2020-09-07.bib](https://github.com/StatBiomed/HLab-pubmon/tree/master/bibs/m2020-09-07.bib) for next
    meeting.
 4. Possibly add the meeting .bib file to the [docs/Pub2020-21.rst](https://github.com/StatBiomed/HLab-pubmon/tree/master/docs/Pub2020-21.rst) if no one has done 
-   (onely need to be done once, not everyone).
+   (only need to be done once, not everyone).
 
 Done! Hopefully readthedocs will build automatically, and you can find it at https://hlab-pubmon.readthedocs.io
 
