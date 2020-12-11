@@ -4,11 +4,9 @@ Pub 2020-2021
 
 Best3 in semester1-2020
 ==========
-
-.. bibliography:: ../bibs/best3-sem1-2020.bib
-   :list: enumerated
-   :style: unsrtalpha
-   :all:
+.. toctree:: ../bibs/best3-sem1-2020.bib
+   :maxdepth: 2
+   :glob:
 
 2020-12-14
 ==========
