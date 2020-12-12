@@ -4,7 +4,7 @@ Best3 in semester1-2020
 
 Rongting
 ==========
-1. xxx
+1. recommend reason for the first publication
 2. xxx
 3. xxx
 
