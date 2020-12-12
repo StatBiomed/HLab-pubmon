@@ -2,10 +2,13 @@
 Best3 in semester1-2020
 =============
 
-xxxxx
+Rongting
 ==========
+1. xxx
+2. xxx
+3. xxx
 
-## xxx
-- x1
-- x2
-- x3
+.. bibliography:: ../bibs/best3/Rongting.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
