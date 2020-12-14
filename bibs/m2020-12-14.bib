@@ -130,3 +130,16 @@ url={https://doi.org/10.1038/s41598-020-77318-1}
   url={https://www.nature.com/articles/s42256-020-00244-4}
 }
 
+% aaron
+@article {Lause2020.12.01.405886,
+	author = {Lause, Jan and Berens, Philipp and Kobak, Dmitry},
+	title = {Analytic Pearson residuals for normalization of single-cell RNA-seq UMI data},
+	elocation-id = {2020.12.01.405886},
+	year = {2020},
+	doi = {10.1101/2020.12.01.405886},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Standard preprocessing of single-cell RNA-seq UMI data includes normalization by sequencing depth to remove this technical variability, and nonlinear transformation to stabilize the variance across genes with different expression levels. Instead, two recent papers propose to use statistical count models for these tasks: Hafemeister and Satija (2019) recommend using Pearson residuals from negative binomial regression, while Townes et al. (2019) recommend fitting a generalized PCA model. Here, we investigate the connection between these approaches theoretically and empirically, and compare their effects on downstream processing. We show that the model of Hafemeister and Satija (2019) produces noisy parameter estimates because it is overspecified (which is why the original paper employs post-hoc regularization). When specified more parsimoniously, it has a simple analytic solution equivalent to the rank-one Poisson GLM-PCA of Townes et al. (2019). Further, our analysis indicates that per-gene overdispersion estimates in Hafemeister and Satija (2019) are biased, and that the data analyzed in that paper are in fact consistent with constant overdispersion parameter across genes. We then use negative control data without biological variability to estimate the technical overdispersion of UMI counts, and find that across several different experimental protocols, the data suggest very moderate overdispersion. Finally, we argue that analytic Pearson residuals (or, equivalently, rank-one GLM-PCA or negative binomial regression after regularization) strongly outperform standard preprocessing for identifying biologically variable genes, and capture more biologically meaningful variation when used for dimensionality reduction, compared to other methods.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2020/12/02/2020.12.01.405886},
+	eprint = {https://www.biorxiv.org/content/early/2020/12/02/2020.12.01.405886.full.pdf},
+	journal = {bioRxiv}
+}
