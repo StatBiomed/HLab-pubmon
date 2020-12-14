@@ -4,7 +4,7 @@ build:
   image: latest
 python:
   install:
-    - requirements: doc/requirements.txt
+    - requirements: docs/requirements.txt
     - method: pip
       path: .
       extra_requirements:
