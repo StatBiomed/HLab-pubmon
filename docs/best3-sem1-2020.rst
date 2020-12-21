@@ -38,6 +38,7 @@ Life process is assumed to be dynamically regulated. ScVelo uses kinetics to bui
 
 3. Benefit from the CHISEL model, especially the EM part.
 
+
 .. bibliography:: ../bibs/best3/Xianjie-2020.bib
    :list: enumerated
    :style: unsrtalpha
@@ -64,6 +65,7 @@ Julia
 2. Also used as a reference when i was writing my literature review. cause it provided insight on different computational analysis method used for analysing cell heterogeneity.
 
 3. Even though it is not really relevant to what I’m doing for my fyp, but it is probably one of the article that i understand the most regarding the methodology.
+
 
 .. bibliography:: ../bibs/best3/Julia-2020.bib
    :list: enumerated
@@ -131,6 +133,7 @@ This paper involves a couple of fancy tools I'm interested in, e.g. RNA velocity
 
 3.Reprogramming roadmap reveals route to human induced trophoblast stem cells
 The scRNA-seq data is relevant to my research, and I am exploring this
+
 
 .. bibliography:: ../bibs/best3/Yoyo-2020.bib
    :list: enumerated
