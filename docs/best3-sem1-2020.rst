@@ -15,7 +15,7 @@ Best 3
 Rongting
 ==========
 1. CHISEL:
-It is really the relevant one to what I’m doing now. The integration of BAF and RDR of scDNA-seq data in chisel is a step froward in calling CNV more accurtely. Through CaSpER also uses BAF and RDR information of scRNA-seq at the same time, but the phasing strategy in chisel can be helpful for getting more information.
+It is really the relevant one to what I’m doing now. The integration of BAF and RDR of scDNA-seq data in chisel is a step froward in calling CNV more accurtely. Though CaSpER also uses BAF and RDR information of scRNA-seq at the same time, the phasing strategy in chisel can be more helpful for getting more information.
 
 2. Methods Review article in single cell data:
 The review outline the major challenges in analyzing single-cell cancer genomics data and survey the current computational tools available to tackle these. They further outline unsolved problems that may be considered as  major opportunities for future methods development to help interpret the vast quantities of data being generated.
