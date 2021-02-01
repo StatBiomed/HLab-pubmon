@@ -171,3 +171,32 @@ issn={1474-760X},
 doi={10.1186/s13059-020-02233-7},
 url={https://doi.org/10.1186/s13059-020-02233-7}
 }
+
+%% C
+@article {Nguyen2021.01.28.428715,
+	author = {Nguyen, Nam D and Huang, Jiawei and Wang, Daifeng},
+	title = {deepManReg: a deep manifold-regularized learning model for improving phenotype prediction from multi-modal data},
+	elocation-id = {2021.01.28.428715},
+	year = {2021},
+	doi = {10.1101/2021.01.28.428715},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The biological processes from genotype to phenotype are complex involving multi-scale mechanisms. Increasing multi-modal data enables a deeper understanding of underlying complex mechanisms in various phenotypes. However, integrating and interpreting such large-scale multi-modal data remains challenging, especially given highly heterogeneous, nonlinear relationships across modalities. To address this, we developed an interpretable regularized learning model, deepManReg to predict phenotypes from multi-modal data. First, deepManReg employs deep neural networks to learn cross-modal manifolds and then align multi-modal features onto a common latent space. This space aims to preserve both global consistency and local smoothness across modalities and to reveal higher-order nonlinear cross-modal relationships. Second, deepManReg uses cross-modal manifolds as a feature graph to regularize the classifiers for improving phenotype predictions and also prioritizing the multi-modal features and cross-modal interactions for the phenotypes. We applied deepManReg to recent single-cell multi-modal data such as Patch-seq data including transcriptomics and electrophysiology for neuronal cells in the mouse brain. We show that deepManReg significantly improves predicting cellular phenotypes and also prioritizing genes and electrophysiological features for the phenotypes. Finally, deepManReg is open-source and general for phenotype prediction from multi-modal dataCompeting Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/01/30/2021.01.28.428715},
+	eprint = {https://www.biorxiv.org/content/early/2021/01/30/2021.01.28.428715.full.pdf},
+	journal = {bioRxiv}
+}
+
+@article {BinTayyash2020.07.29.227207,
+	author = {BinTayyash, Nuha and Georgaka, Sokratia and John, ST and Ahmed, Sumon and Boukouvalas, Alexis and Hensman, James and Rattray, Magnus},
+	title = {Non-parametric modelling of temporal and spatial counts data from RNA-seq experiments},
+	elocation-id = {2020.07.29.227207},
+	year = {2021},
+	doi = {10.1101/2020.07.29.227207},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Motivation: The negative binomial distribution has been shown to be a good model for counts data from both bulk and single-cell RNA-sequencing (RNA-seq). Gaussian process (GP) regression provides a useful non-parametric approach for modeling temporal or spatial changes in gene expression. However, currently available GP regression methods that implement negative binomial likelihood models do not scale to the increasingly large datasets being produced by single-cell and spatial transcriptomics. Results: The GPcounts package implements GP regression methods for modelling counts data using a negative binomial likelihood function. Computational efficiency is achieved through the use of variational Bayesian inference. The GP function models changes in the mean of the negative binomial likelihood through a logarithmic link function and the dispersion parameter is fitted by maximum likelihood. We validate the method on simulated time course data, showing that it is better able to identify changes in over-dispersed counts data than methods based on Gaussian or Poisson likelihoods. To demonstrate temporal inference, we apply GPcounts to single-cell RNA-seq datasets after pseudotime and branching inference. To demonstrate spatial inference, we apply GPcounts to data from the mouse olfactory bulb to identify spatially variable genes and compare to two published GP methods. We also provide the option of modelling additional dropout using a zero-inflated negative binomial. Our results show that GPcounts can be used to model temporal and spatial counts data in cases where simpler Gaussian and Poisson likelihoods are unrealistic. Availability: GPcounts is implemented using the GPflow library in Python and is available at https://github.com/ManchesterBioinference/GPcounts along with the data, code and notebooks required to reproduce the results presented here.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/01/30/2020.07.29.227207},
+	eprint = {https://www.biorxiv.org/content/early/2021/01/30/2020.07.29.227207.full.pdf},
+	journal = {bioRxiv}
+}
+
+
