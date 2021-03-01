@@ -2,6 +2,14 @@
 Pub 2020-2021
 =============
 
+2021-03-01
+==========
+
+.. bibliography:: ../bibs/m2021-03-01.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
 2021-02-01
 ==========
 
