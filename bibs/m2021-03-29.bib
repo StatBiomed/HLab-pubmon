@@ -72,3 +72,16 @@ http://proceedings.mlr.press/v108/zhao20c.html
   url={https://www.nature.com/articles/s41467-021-21246-9}
 }
 
+%% mingze
+@article {Baker2021.03.24.436859,
+	author = {Baker, Daniel N. and Dyjack, Nathan and Braverman, Vladimir and Hicks, Stephanie C. and Langmead, Ben},
+	title = {minicore: Fast scRNA-seq clustering with various distances},
+	elocation-id = {2021.03.24.436859},
+	year = {2021},
+	doi = {10.1101/2021.03.24.436859},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Single-cell RNA-sequencing (scRNA-seq) analyses typically begin by clustering a gene-by-cell expression matrix to empirically define groups of cells with similar expression profiles. We describe new methods and a new open source library, minicore, for efficient k-means++ center finding and k-means clustering of scRNA-seq data. Minicore works with sparse count data, as it emerges from typical scRNA-seq experiments, as well as with dense data from after dimensionality reduction. Minicore{\textquoteright}s novel vectorized weighted reservoir sampling algorithm allows it to find initial k-means++ centers for a 4-million cell dataset in 1.5 minutes using 20 threads. Minicore can cluster using Euclidean distance, but also supports a wider class of measures like Jensen-Shannon Divergence, Kullback-Leibler Divergence, and the Bhattacharyya distance, which can be directly applied to count data and probability distributions.Further, minicore produces lower-cost centerings more efficiently than scikit-learn for scRNA-seq datasets with millions of cells. With careful handling of priors, minicore implements these distance measures with only minor (\&lt;2-fold) speed differences among all distances. We show that a minicore pipeline consisting of k-means++, localsearch++ and minibatch k-means can cluster a 4-million cell dataset in minutes, using less than 10GiB of RAM. This memory-efficiency enables atlas-scale clustering on laptops and other commodity hardware. Finally, we report findings on which distance measures give clusterings that are most consistent with known cell type labels.Availability The open source library is at https://github.com/dnbaker/minicore. Code used for experiments is at https://github.com/dnbaker/minicore-experiments.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/03/25/2021.03.24.436859},
+	eprint = {https://www.biorxiv.org/content/early/2021/03/25/2021.03.24.436859.full.pdf},
+	journal = {bioRxiv}
+}
