@@ -8,4 +8,5 @@ sphinx_autodoc_typehints<=1.6
 sphinxcontrib-bibtex==1.0.0
 
 # converting notebooks to html
-sphinx>=1.7
+# sphinx>=1.7
+sphinx<=3.5.4
