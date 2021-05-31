@@ -14,6 +14,24 @@ We read variational auto-encoder paper :cite:`kingma2013auto` in detail today,
 with brief disucssion on its single cell application scVI :cite:`lopez2018deep`.
 
 
+2021-05-17
+==========
+We read three papers: RPCI :cite:`liu2021robust`, Cell-ID: :cite:`cortal2021gene`,
+scPred :cite:`alquicira2019scpred`, all about linear projection of single-cell 
+transcriptome to lower dimensional space with singular value decomposition (SVD),
+the implementation technique for Principal component analysis (PCA).
+
+We also referred more details on PCA and SVD by reading the following book 
+chapters:
+
+* SVD quick reading: chapter 2.7-2.8 (4 pages): 
+  https://www.deeplearningbook.org/contents/linear_algebra.html
+* SVD Longer reading: chapter 4.5: https://mml-book.github.io/book/mml-book.pdf
+* PCA quick reading: chapter 12.1
+  https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
+
+
+
 References
 ==========
 
