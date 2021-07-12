@@ -129,3 +129,30 @@ title={Representative Batch Normalization with Feature Calibration},
 author={Gao, Shang-Hua and Han, Qi and Li, Duo and Peng, Pai and Cheng, Ming-Ming and Pai Peng},   
 booktitle=CVPR,   
 year={2021} }
+
+%% xianjie
+@article {You2021.06.17.448895,
+	author = {You, Yue and Tian, Luyi and Su, Shian and Dong, Xueyi and Jabbari, Jafar S and Hickey, Peter F and Ritchie, Matthew E},
+	title = {Benchmarking UMI-based single cell RNA-sequencing preprocessing workflows},
+	elocation-id = {2021.06.17.448895},
+	year = {2021},
+	doi = {10.1101/2021.06.17.448895},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Single-cell RNA sequencing (scRNA-seq) technologies and associated analysis methods have undergone rapid development in recent years. This includes methods for data preprocessing, which assign sequencing reads to genes to create count matrices for downstream analysis. Several packaged preprocessing workflows have been developed that aim to provide users with convenient tools for handling this process. How different preprocessing workflows compare to one another and influence downstream analysis has been less well studied.Here, we systematically benchmark the performance of 9 end-to-end preprocessing workflows (Cell Ranger, Optimus, salmon alevin, kallisto bustools, dropSeqPipe, scPipe, zUMIs, celseq2 and scruff) using datasets with varying levels of biological complexity generated on the CEL-Seq2 and 10x Chromium platforms. We compare these workflows in terms of their quantification properties directly and their impact on normalization and clustering by evaluating the performance of different method combinations. We find that lowly expressed genes are discordant between workflows and observe that some workflows have systematic biases towards particular classes of genomics features. While the scRNA-seq preprocessing workflows compared varied in their detection and quantification of genes across datasets, after downstream analysis with performant normalization and clustering methods, almost all combinations produced clustering results that agreed well with the known cell type labels that provided the ground truth in our analysis.In summary, the choice of preprocessing method was found to be less influential than other steps in the scRNA-seq analysis process. Our study comprehensively compares common scRNA-seq preprocessing workflows and summarizes their characteristics to guide workflow users.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/06/17/2021.06.17.448895},
+	eprint = {https://www.biorxiv.org/content/early/2021/06/17/2021.06.17.448895.full.pdf},
+	journal = {bioRxiv}
+}
+
+@article {He2021.06.29.450377,
+	author = {He, Dongze and Zakeri, Mohsen and Sarkar, Hirak and Soneson, Charlotte and Srivastava, Avi and Patro, Rob},
+	title = {Alevin-fry unlocks rapid, accurate, and memory-frugal quantification of single-cell RNA-seq data},
+	elocation-id = {2021.06.29.450377},
+	year = {2021},
+	doi = {10.1101/2021.06.29.450377},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {The rapid growth of high-throughput single-cell and single-nucleus RNA sequencing technologies has produced a wealth of data over the past few years. The available technologies continue to evolve and experiments continue to increase in both number and scale. The size, volume, and distinctive characteristics of these data necessitate the development of new software and associated computational methods to accurately and efficiently quantify single-cell and single-nucleus RNA-seq data into count matrices that constitute the input to downstream analyses.We introduce the alevin-fry framework for quantifying single-cell and single-nucleus RNA-seq data. Despite being faster and more memory frugal than other accurate and scalable quantification approaches, alevin-fry does not suffer from the false positive expression or memory scalability issues that are exhibited by other lightweight tools. We demonstrate how alevin-fry can be effectively used to quantify single-cell and single-nucleus RNA-seq data, and also how the spliced and unspliced molecule quantification required as input for RNA velocity analyses can be seamlessly extracted from the same preprocessed data used to generate regular gene expression count matrices.Competing Interest StatementRP is a co-founder of Ocean Genomics, inc.},
+	URL = {https://www.biorxiv.org/content/early/2021/07/01/2021.06.29.450377},
+	eprint = {https://www.biorxiv.org/content/early/2021/07/01/2021.06.29.450377.full.pdf},
+	journal = {bioRxiv}
+}
