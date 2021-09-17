@@ -1,0 +1,12 @@
+=============
+Pub 2021-2022
+=============
+
+2021-09-17
+==========
+
+.. bibliography:: ../bibs/m2021-09-17.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
