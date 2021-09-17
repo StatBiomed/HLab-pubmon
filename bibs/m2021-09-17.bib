@@ -97,3 +97,17 @@
   publisher={Springer},
   url={https://genomebiology.biomedcentral.com/articles/10.1186/s13059-021-02480-2}
 }
+
+%% xianjie
+@article {DeBruine2021.09.01.458620,
+	author = {DeBruine, Zachary J. and Melcher, Karsten and Triche, Timothy J.},
+	title = {Fast and robust non-negative matrix factorization for single-cell experiments},
+	elocation-id = {2021.09.01.458620},
+	year = {2021},
+	doi = {10.1101/2021.09.01.458620},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Non-negative matrix factorization (NMF) is an intuitively appealing method to extract additive combinations of measurements from noisy or complex data. NMF is applied broadly to text and image processing, time-series analysis, and genomics, where recent technological advances permit sequencing experiments to measure the representation of tens of thousands of features in millions of single cells. In these experiments, a count of zero for a given feature in a given cell may indicate either the absence of that feature or an insufficient read coverage to detect that feature ({\textquotedblleft}dropout{\textquotedblright}). In contrast to spectral decompositions such as the Singular Value Decomposition (SVD), the strictly positive imputation of signal by NMF is an ideal fit for single-cell data with ambiguous zeroes. Nevertheless, most single-cell analysis pipelines apply SVD or Principal Component Analysis (PCA) on transformed counts because these implementations are fast while current NMF implementations are slow. To address this need, we present an accessible NMF implementation that is much faster than PCA and rivals the runtimes of state-of-the-art SVD. NMF models learned with our implementation from raw count matrices yield intuitive summaries of complex biological processes, capturing coordinated gene activity and enrichment of sample metadata. Our NMF implementation, available in the RcppML (Rcpp Machine Learning library) R package, improves upon current NMF implementations by introducing a scaling diagonal to enable convex L1 regularization for feature engineering, reproducible factor scalings, and symmetric factorizations. RcppML NMF easily handles sparse datasets with millions of samples, making NMF an attractive replacement for PCA in the analysis of single-cell experiments.Competing Interest StatementThe authors have declared no competing interest.},
+	URL = {https://www.biorxiv.org/content/early/2021/09/01/2021.09.01.458620},
+	eprint = {https://www.biorxiv.org/content/early/2021/09/01/2021.09.01.458620.full.pdf},
+	journal = {bioRxiv}
+}
