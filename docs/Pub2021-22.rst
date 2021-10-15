@@ -10,3 +10,11 @@ Pub 2021-2022
    :style: unsrtalpha
    :all:
 
+
+2021-10-15
+==========
+
+.. bibliography:: ../bibs/m2021-10-15.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
