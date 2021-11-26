@@ -2,10 +2,28 @@
 Pub 2021-2022
 =============
 
-2021-09-17
+2021-11-26
 ==========
 
-.. bibliography:: ../bibs/m2021-09-17.bib
+.. bibliography:: ../bibs/m2021-11-26.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
+
+2021-11-12
+==========
+
+.. bibliography:: ../bibs/m2021-11-12.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
+
+2021-10-29
+==========
+
+.. bibliography:: ../bibs/m2021-10-29.bib
    :list: enumerated
    :style: unsrtalpha
    :all:
@@ -19,27 +37,11 @@ Pub 2021-2022
    :style: unsrtalpha
    :all:
 
-2021-10-29
+
+2021-09-17
 ==========
 
-.. bibliography:: ../bibs/m2021-10-29.bib
+.. bibliography:: ../bibs/m2021-09-17.bib
    :list: enumerated
    :style: unsrtalpha
    :all:
-
-2021-11-12
-==========
-
-.. bibliography:: ../bibs/m2021-11-12.bib
-   :list: enumerated
-   :style: unsrtalpha
-   :all:
-
-2021-11-26
-==========
-
-.. bibliography:: ../bibs/m2021-11-26.bib
-   :list: enumerated
-   :style: unsrtalpha
-   :all:
-
