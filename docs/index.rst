@@ -34,6 +34,26 @@ Here are some journals that we often find papers interesting to many of us:
 * and more ...
 
 
+Guidelines
+==========
+
+The motivation is that everyone in the lab has a habit of reading, reasoning 
+and sharing, which hopefully will keep us inspired and excited in science. 
+
+The guidelines here only aim to help us make better use of the limited time:
+
+* Please make it within 10 min per person (up to 15min), including discussions.
+* Introduce the background sufficiently, so everyone can understand what the 
+  question is.
+* Don't need to go through the whole paper. Just mention 1 to 3 points that you 
+  want to share. It can also be questions that puzzle you.
+
+Ideally, you will find this paper sharing is somewhat like a cake tasting party.
+So, bring the nice new cake you find and share why you like it, in an effective
+way.
+
+
+
 .. toctree::
    :caption: Main
    :maxdepth: 2
