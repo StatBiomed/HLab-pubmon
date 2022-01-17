@@ -30,7 +30,13 @@ chapters:
 * PCA quick reading: chapter 12.1
   https://www.microsoft.com/en-us/research/uploads/prod/2006/01/Bishop-Pattern-Recognition-and-Machine-Learning-2006.pdf
 
+2022-01-13
+==========
+We read the Chapter 8 Optimisation, PML book 1.
+https://probml.github.io/pml-book/book1.html
 
+Rongting lead the reading of the foundation part, Mingze lead the discussion of the specific methods (SGD and the rest), and Chen C 
+introduce the EM details.
 
 References
 ==========
