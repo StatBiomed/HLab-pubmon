@@ -19,7 +19,7 @@ Done! Hopefully readthedocs will build automatically, and you can find it at htt
 If you are not sure the readthedocs will build auotmatically, you can check it in your local environment first with the following two steps
 * Activate a conda environment with the required packages listed in 
   [docs/requirements.txt](https://github.com/StatBiomed/HLab-pubmon/blob/master/docs/requirements.txt):
-* Go to the ``docs`` folder in terminal and type ``make`` and see if any error exists
+* Go to the ``docs`` folder in terminal and type ``make html`` and see if any error exists
 
 
 **Note:** Please pull before your commit, as other people may edit it in the same
