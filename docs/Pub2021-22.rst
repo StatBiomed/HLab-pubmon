@@ -2,6 +2,14 @@
 Pub 2021-2022
 =============
 
+2022-02-09
+==========
+
+.. bibliography:: ../bibs/m2022-02-09.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
 2022-01-19
 ==========
 
