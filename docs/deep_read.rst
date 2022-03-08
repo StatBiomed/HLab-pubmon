@@ -32,11 +32,29 @@ chapters:
 
 2022-01-13
 ==========
-We read the Chapter 8 Optimisation, PML book 1.
+We read the Chapter 8 OptimiZation, PML book 1.
 https://probml.github.io/pml-book/book1.html
 
 Rongting lead the reading of the foundation part, Mingze lead the discussion of the specific methods (SGD and the rest), and Chen C 
 introduce the EM details.
+
+2022-02-16
+==========
+We read the Chapter 13-14 deep nueral networks(Introduction), PML book 1.
+https://probml.github.io/pml-book/book1.html
+
+Xianjie, Qiaochen and Ruiyan lead the reading.
+
+
+2022-03-02
+==========
+We read the Chapter 14 VAE, PML book 1.
+https://probml.github.io/pml-book/book1.html
+
+Fangxin and weizhong lead the reading.
+
+
+
 
 References
 ==========
