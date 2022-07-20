@@ -1,0 +1,25 @@
+%%ruiyan
+
+@article{qin2018seastar,
+  title={SEASTAR: systematic evaluation of alternative transcription start sites in RNA},
+  author={Qin, Zhiyi and Stoilov, Peter and Zhang, Xuegong and Xing, Yi},
+  journal={Nucleic Acids Research},
+  volume={46},
+  number={8},
+  pages={e45--e45},
+  year={2018},
+  URL={https://academic.oup.com/nar/article/46/8/e45/4931254#116446609},
+  publisher={Oxford University Press}
+}
+
+@article{ma2022integrating,
+  title={Integrating single-cell sequencing data with GWAS summary statistics reveals CD16+ monocytes and memory CD8+ T cells involved in severe COVID-19},
+  author={Ma, Yunlong and Qiu, Fei and Deng, Chunyu and Li, Jingjing and Huang, Yukuan and Wu, Zeyi and Zhou, Yijun and Zhang, Yaru and Xiong, Yichun and Yao, Yinghao and others},
+  journal={Genome medicine},
+  volume={14},
+  number={1},
+  pages={1--21},
+  year={2022},
+  URL={https://genomemedicine.biomedcentral.com/articles/10.1186/s13073-022-01021-1#Sec17}，
+  publisher={BioMed Central}
+}
