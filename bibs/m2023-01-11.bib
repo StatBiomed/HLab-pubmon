@@ -22,3 +22,17 @@
   year={2022},
   publisher={Cold Spring Harbor Laboratory}
 }
+
+%% xianjie
+@article {He2023.01.04.522742,
+	author = {He, Dongze and Soneson, Charlotte and Patro, Rob},
+	title = {Understanding and evaluating ambiguity in single-cell and single-nucleus RNA-sequencing},
+	elocation-id = {2023.01.04.522742},
+	year = {2023},
+	doi = {10.1101/2023.01.04.522742},
+	publisher = {Cold Spring Harbor Laboratory},
+	abstract = {Recently, a new modification has been proposed by Hj{\"o}rleifsson and Sullivan et al. to the model used to classify the splicing status of reads (as spliced (mature), unspliced (nascent), or ambiguous) in single-cell and single-nucleus RNA-seq data. Here, we evaluate both the theoretical basis and practical implementation of the proposed method. The proposed method is highly-conservative, and therefore, unlikely to mischaracterize reads as spliced (mature) or unspliced (nascent) when they are not. However, we find that it leaves a large fraction of reads classified as ambiguous, and, in practice, allocates these ambiguous reads in an all-or-nothing manner, and differently between single-cell and single-nucleus RNA-seq data. Further, as implemented in practice, the ambiguous classification is implicit and based on the index against which the reads are mapped, which leads to several drawbacks compared to methods that consider both spliced (mature) and unspliced (nascent) mapping targets simultaneously {\textemdash} for example, the ability to use confidently assigned reads to rescue ambiguous reads based on shared UMIs and gene targets. Nonetheless, we show that these conservative assignment rules can be obtained directly in existing approaches simply by altering the set of targets that are indexed. To this end, we introduce the spliceu reference and show that its use with alevin-fry recapitulates the more conservative proposed classification.We also observe that, on experimental data, and under the proposed allocation rules for ambiguous UMIs, the difference between the proposed classification scheme and existing conventions appears much smaller than previously reported. We demonstrate the use of the new piscem index for mapping simultaneously against spliced (mature) and unspliced (nascent) targets, allowing classification against the full nascent and mature transcriptome in human or mouse in \&lt;3GB of memory. Finally, we discuss the potential of incorporating probabilistic evidence into the inference of splicing status, and suggest that it may provide benefits beyond what can be obtained from discrete classification of UMIs as splicing-ambiguous.Competing Interest StatementRP is a co-founder of Ocean Genomics Inc.},
+	URL = {https://www.biorxiv.org/content/early/2023/01/04/2023.01.04.522742},
+	eprint = {https://www.biorxiv.org/content/early/2023/01/04/2023.01.04.522742.full.pdf},
+	journal = {bioRxiv}
+}
