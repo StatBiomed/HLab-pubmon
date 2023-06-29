@@ -2,6 +2,22 @@
 Pub 2022-2023
 =============
 
+2023-07-12
+==========
+
+.. bibliography:: ../bibs/m2023-07-12.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
+2023-06-21
+==========
+
+.. bibliography:: ../bibs/m2023-06-21.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
 2023-05-04
 ==========
 
