@@ -1,0 +1,12 @@
+=============
+Pub 2023-2024
+=============
+
+2023-10-04
+==========
+
+.. bibliography:: ../bibs/m2023-10-04.bib
+   :list: enumerated
+   :style: unsrtalpha
+   :all:
+
