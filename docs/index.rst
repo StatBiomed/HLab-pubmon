@@ -67,6 +67,7 @@ way.
    :maxdepth: 3
    :hidden:
 
+   Pub2023-24
    Pub2022-23
    Pub2021-22
    Pub2020-21
