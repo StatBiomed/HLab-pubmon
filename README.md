@@ -2,7 +2,20 @@
 Publication monitoring at Huang Lab
 
 
-## How to use
+## Simplified Archive with markdown (version 2)
+
+> Just making life simple: add the reference, in anyformat you like; you may use `>` for blockquote.
+
+* [Y2024.md](Y2024.md)
+* [Y2025.md](Y2025.md)
+* [Y2026.md](Y2026.md)
+
+
+
+
+## Below is for version 1 (outdated)
+
+### How to use
 1. Pick [a few journals](https://hlab-pubmon.readthedocs.io/en/latest/#journal-list), 
    e.g., 3 that you are interested in and found papers that may be interesting 
    to some of us in the lab.
@@ -15,7 +28,7 @@ Publication monitoring at Huang Lab
 
 Done! Hopefully readthedocs will build automatically, and you can find it at https://hlab-pubmon.readthedocs.io
 
-## Troubleshooting
+### Troubleshooting
 If you are not sure the readthedocs will build auotmatically, you can check it in your local environment first with the following two steps
 * Activate a conda environment with the required packages listed in 
   [docs/requirements.txt](https://github.com/StatBiomed/HLab-pubmon/blob/master/docs/requirements.txt):
